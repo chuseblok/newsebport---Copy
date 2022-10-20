@@ -170,7 +170,7 @@ const Project = () => {
           <Router>
             <div>
               <a
-                href='https://watermelonz.herokuapp.com/'
+                href='https://sebastianportfolio.herokuapp.com/#home'
                 target='_blank'
                 rel='noreferrer'
               >
