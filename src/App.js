@@ -26,6 +26,7 @@ function App() {
         <a class='github' href='https://github.com/chuseblok'>
           {/* Github */}
         </a>
+        <div class='ft'></div>
       </footer>
     </div>
   );
