@@ -22,7 +22,7 @@ function Navbar({ currentPage, handlePageChange }) {
         <a
           href='#art'
           onClick={() => handlePageChange("Art")}
-          className={currentPage === "Links" ? "nav-link active" : "nav-link"}
+          className={currentPage === "Art" ? "nav-link active" : "nav-link"}
         >
           Art
         </a>
