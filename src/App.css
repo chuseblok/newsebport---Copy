@@ -761,11 +761,7 @@ footer {
 div.ft {
   width: 1%;
 }
-a.linkedln {
-  background-image: url(./components/Images/Linkedln.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+img.linkedln {
   height: 3rem;
   width: 3rem;
   display: flex;
@@ -776,11 +772,7 @@ a.linkedln {
   align-items: center;
   padding: 0 2.5rem;
 }
-a.instagram {
-  background-image: url(./components/Images/Instagram.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+img.instagram {
   height: 3rem;
   width: 3rem;
   display: flex;
@@ -791,11 +783,7 @@ a.instagram {
   align-items: center;
   padding: 0 2.5rem;
 }
-a.github {
-  background-image: url(./components/Images/GitHub.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+img.github {
   height: 3rem;
   width: 3rem;
   display: flex;
