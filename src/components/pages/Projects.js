@@ -147,7 +147,8 @@ const Project = () => {
         <h1 class='wordbubble'>
           I developed this application to resemble a watermelon, imaging was not
           used during this process. Hovering over the watermelon will results in
-          a watermelon slice appearing. This application was developed with:
+          a watermelon slice appearing. This application is deployed with Heroku
+          and was developed with:
           <div class='h23'>
             <h2>
               <li>React.js</li>
@@ -182,7 +183,8 @@ const Project = () => {
         <h1 class='wordbubble'>
           I developed this website to showcase my range of skills in UX/UI and
           front-end web development. It includes a description of my expertise
-          and creativity. This application was developed with:
+          and creativity. This application is deployed with Vercel and was
+          developed with:
           <div class='h23'>
             <h2>
               <li>React.js</li>
