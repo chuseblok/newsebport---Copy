@@ -174,10 +174,10 @@ title.titlesphome {
   width: 100%;
   height: 5rem;
   border-radius: 0.5rem;
-  background: var(--9);
-  color: var(--7);
+  background: var(--12);
+  color: var(--1);
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--11);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
