@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ProfilePic from "../Images/seb2.png";
-import redRock from "../Images/RedRockz.png";
-import petiteJeans from "../Images/PetiteJeans.png";
-import nH from "../Images/NH.png";
+import ProfilePic from "../Images/seb2.jpg";
+import redRock from "../Images/RedRockz.jpg";
+import petiteJeans from "../Images/PetiteJeans.jpg";
+import nH from "../Images/NH.jpg";
 const Project = () => {
   return (
     <div class='C1'>

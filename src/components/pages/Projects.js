@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import granDma from "../Images/grandma.png";
-import knowTeacher from "../Images/teacher.png";
-import eventPlan from "../Images/event.png";
-import waterMelon from "../Images/watermelon.png";
-import sebPort from "../Images/SBP.png";
+import granDma from "../Images/grandma.jpg";
+import knowTeacher from "../Images/teacher.jpg";
+import eventPlan from "../Images/event.jpg";
+import waterMelon from "../Images/watermelon.jpg";
+import sebPort from "../Images/SBP.jpg";
 const Project = () => {
   return (
     <div class='C2'>
