@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div class='C1'>
       <div class='C11stChild'>
-        <h1 class='titlesphome'>Sebastian's Portfolio</h1>
+        <title class='titlesphome'>Sebastian's Portfolio</title>
       </div>
       <div class='C12ndChild'>
         <div class='cardsp'>
