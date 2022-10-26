@@ -22,9 +22,6 @@ export default function PortfolioContainer() {
       return <Art />;
     }
 
-    // if (currentPage === "Contact") {
-    //   return <Contact />;
-    // }
     return <Home />;
   };
 
