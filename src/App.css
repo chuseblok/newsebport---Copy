@@ -762,7 +762,7 @@ div.ft {
 }
 img.linkedln {
   height: 3rem;
-  width: 35%;
+  width: 37%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -773,7 +773,7 @@ img.linkedln {
 }
 img.instagram {
   height: 3rem;
-  width: 35%;
+  width: 37%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -784,7 +784,7 @@ img.instagram {
 }
 img.github {
   height: 3rem;
-  width: 35%;
+  width: 37%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
