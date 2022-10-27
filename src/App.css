@@ -15,7 +15,7 @@
   --14: #506684;
   --15: #adcdfd92;
   --16: #4e6384de;
-  --17: rgb(128, 222, 26);
+  --17: rgb(128, 215, 36);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar {
@@ -688,7 +688,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .BD:focus {
-  position: fixed;
   background-image: url(./components/Images/BD.jpg);
   height: 18rem;
   width: 18rem;
@@ -712,7 +711,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .MM:focus {
-  position: fixed;
   background-image: url(./components/Images/MM.jpg);
   height: 18rem;
   width: 18rem;
@@ -736,7 +734,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .FM:focus {
-  position: fixed;
   background-image: url(./components/Images/FM.jpg);
   height: 18rem;
   width: 18rem;
@@ -760,7 +757,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .AG:focus {
-  position: fixed;
   background-image: url(./components/Images/AG.jpg);
   height: 18rem;
   width: 18rem;
@@ -784,7 +780,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .SL:focus {
-  position: fixed;
   background-image: url(./components/Images/SL.jpg);
   height: 18rem;
   width: 18rem;
@@ -808,7 +803,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .SW:focus {
-  position: fixed;
   background-image: url(./components/Images/SW.jpg);
   height: 18rem;
   width: 18rem;
@@ -832,7 +826,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .AS:focus {
-  position: fixed;
   background-image: url(./components/Images/AS.jpg);
   height: 18rem;
   width: 18rem;
@@ -856,7 +849,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .FD:focus {
-  position: fixed;
   background-image: url(./components/Images/FD.jpg);
   height: 18rem;
   width: 18rem;
@@ -880,7 +872,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .FR:focus {
-  position: fixed;
   background-image: url(./components/Images/FR.jpg);
   height: 18rem;
   width: 18rem;
@@ -904,7 +895,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .HZ:focus {
-  position: fixed;
   background-image: url(./components/Images/HZ.jpg);
   height: 18rem;
   width: 18rem;
@@ -928,7 +918,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .RS:focus {
-  position: fixed;
   background-image: url(./components/Images/RS.jpg);
   height: 18rem;
   width: 18rem;
@@ -952,8 +941,7 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .SH:focus {
-  position: fixed;
-  background-image: url(./components/Images/FD.jpg);
+  background-image: url(./components/Images/SH.jpg);
   height: 18rem;
   width: 18rem;
   border-radius: 0.5rem;
@@ -976,7 +964,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .SU:focus {
-  position: fixed;
   background-image: url(./components/Images/SU.jpg);
   height: 18rem;
   width: 18rem;
@@ -1000,7 +987,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .BF:focus {
-  position: fixed;
   background-image: url(./components/Images/BF.jpg);
   height: 18rem;
   width: 18rem;
@@ -1024,7 +1010,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .CH:focus {
-  position: fixed;
   background-image: url(./components/Images/CH.jpg);
   height: 18rem;
   width: 18rem;
@@ -1048,7 +1033,6 @@ div.C3 {
   transition: all 0.2s ease-in-out;
 }
 .GR:focus {
-  position: fixed;
   background-image: url(./components/Images/GR.jpg);
   height: 18rem;
   width: 18rem;
