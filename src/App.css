@@ -676,9 +676,6 @@ div.column {
 button:focus {
   height: 18rem;
   width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 .BD {
   background-image: url(./components/Images/BD.jpg);

@@ -6,8 +6,6 @@ import Home from "./pages/Home";
 
 import Projects from "./pages/Projects";
 
-// import Contact from "./pages/Contact";
-
 import Art from "./pages/Art";
 
 export default function PortfolioContainer() {
@@ -21,7 +19,6 @@ export default function PortfolioContainer() {
     if (currentPage === "Art") {
       return <Art />;
     }
-
     return <Home />;
   };
 

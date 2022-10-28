@@ -37,14 +37,7 @@ const Project = () => {
             </h3>
           </div>
         </h1>
-        <div class='BP'>
-          {/* <a
-            class='buttongcb'
-            href='https://github.com/wmskillas/Grandmas-Cook-Book'
-          >
-            Github
-          </a> */}
-        </div>
+        <div class='BP'></div>
       </div>
       <div class='card'>
         <div class='titlekyt'>Know Your Teacher</div>
@@ -80,14 +73,7 @@ const Project = () => {
             </h3>
           </div>
         </h1>
-        <div class='BP'>
-          {/* <a
-            class='buttonkyt'
-            href='https://github.com/choilina16/know-your-teacher'
-          >
-            Github
-          </a> */}
-        </div>
+        <div class='BP'></div>
       </div>
       <div class='card'>
         <div class='titleEp'>EventPlan</div>
@@ -123,11 +109,7 @@ const Project = () => {
             </h3>
           </div>
         </h1>
-        <div class='BP'>
-          {/* <a class='buttonep' href='https://github.com/jdmill/Eventplan'>
-            Github
-          </a> */}
-        </div>
+        <div class='BP'></div>
       </div>
       <div class='card'>
         <div class='titlewm'>Watermelon</div>
@@ -158,12 +140,7 @@ const Project = () => {
             </h3>
           </div>
         </h1>
-
-        <div class='BP'>
-          {/* <a class='buttonwm' href='https://github.com/chuseblok/Buttons'>
-            Github
-          </a> */}
-        </div>
+        <div class='BP'></div>
       </div>
       <div class='card'>
         <div class='titlesp'>Sebastian's Portfolio</div>
@@ -194,12 +171,7 @@ const Project = () => {
             </h3>
           </div>
         </h1>
-
-        <div class='BP'>
-          {/* <a class='buttonwm' href='https://github.com/chuseblok/Buttons'>
-            Github
-          </a> */}
-        </div>
+        <div class='BP'></div>
       </div>
     </div>
   );
