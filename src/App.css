@@ -659,18 +659,26 @@ div.C3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color: var(--1);
-  font-size: large;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   width: 100%;
   height: 100%;
-  border-radius: 0 0 0.5rem 0.5rem;
   justify-content: center;
   align-content: center;
   align-items: center;
-  padding: 6rem 0;
+  padding: 5.5rem 0;
+}
+div.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0rem 0rem;
+  justify-content: center;
+}
+button:focus {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  top: 10rem;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 .BD {
   background-image: url(./components/Images/BD.jpg);
@@ -685,15 +693,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.BD:focus {
-  background-image: url(./components/Images/BD.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .MM {
   background-image: url(./components/Images/MM.jpg);
@@ -708,15 +708,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.MM:focus {
-  background-image: url(./components/Images/MM.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .FM {
   background-image: url(./components/Images/FM.jpg);
@@ -731,38 +723,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.FM:focus {
-  background-image: url(./components/Images/FM.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-}
-.AG {
-  background-image: url(./components/Images/AG.jpg);
-  align-items: center;
-  justify-content: center;
-  background-color: #2e2721;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 10rem;
-  width: 10rem;
-  border-radius: 0.5rem;
-  margin: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.AG:focus {
-  background-image: url(./components/Images/AG.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .SL {
   background-image: url(./components/Images/SL.jpg);
@@ -777,15 +738,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.SL:focus {
-  background-image: url(./components/Images/SL.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .SW {
   background-image: url(./components/Images/SW.jpg);
@@ -800,15 +753,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.SW:focus {
-  background-image: url(./components/Images/SW.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .AS {
   background-image: url(./components/Images/AS.jpg);
@@ -823,15 +768,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.AS:focus {
-  background-image: url(./components/Images/AS.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .FD {
   background-image: url(./components/Images/FD.jpg);
@@ -846,15 +783,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.FD:focus {
-  background-image: url(./components/Images/FD.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .FR {
   background-image: url(./components/Images/FR.jpg);
@@ -869,15 +798,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.FR:focus {
-  background-image: url(./components/Images/FR.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .HZ {
   background-image: url(./components/Images/HZ.jpg);
@@ -892,15 +813,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.HZ:focus {
-  background-image: url(./components/Images/HZ.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .RS {
   background-image: url(./components/Images/RS.jpg);
@@ -915,15 +828,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.RS:focus {
-  background-image: url(./components/Images/RS.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .SH {
   background-image: url(./components/Images/SH.jpg);
@@ -938,15 +843,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.SH:focus {
-  background-image: url(./components/Images/SH.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .SU {
   background-image: url(./components/Images/SU.jpg);
@@ -961,15 +858,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.SU:focus {
-  background-image: url(./components/Images/SU.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .BF {
   background-image: url(./components/Images/BF.jpg);
@@ -984,15 +873,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.BF:focus {
-  background-image: url(./components/Images/BF.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .CH {
   background-image: url(./components/Images/CH.jpg);
@@ -1007,15 +888,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.CH:focus {
-  background-image: url(./components/Images/CH.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 .GR {
   background-image: url(./components/Images/GR.jpg);
@@ -1030,15 +903,7 @@ div.C3 {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.2s ease-in-out;
-}
-.GR:focus {
-  background-image: url(./components/Images/GR.jpg);
-  height: 18rem;
-  width: 18rem;
-  border-radius: 0.5rem;
-  top: 10rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.4s ease-in-out;
 }
 footer {
   position: fixed;
