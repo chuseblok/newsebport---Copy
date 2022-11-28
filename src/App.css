@@ -16,6 +16,7 @@
   --15: #adcdfd92;
   --16: #4e6384de;
   --17: rgb(128, 215, 36);
+  --18: #36577c;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar {
@@ -160,7 +161,21 @@ div.cardsp {
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   transition: all 0.2s ease-in-out;
 }
-
+div.cardsp:hover {
+  position: relative;
+  top: 1rem;
+  height: 25rem;
+  width: 20rem;
+  font-size: large;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  background: var(--4);
+  border-radius: 0.5rem;
+  margin: 0.6rem;
+  display: inline-block;
+  box-shadow: 0.6rem 0.6rem 0 0 var(--13);
+}
 div.C11stChild {
   position: relative;
   display: flex;
@@ -364,6 +379,20 @@ div.card {
   margin: 0.6rem;
   display: inline-block;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  transition: all 0.2s ease-in-out;
+}
+div.card:hover {
+  height: 33rem;
+  width: 20rem;
+  font-size: large;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  background: var(--4);
+  border-radius: 0.5rem;
+  margin: 0.6rem;
+  display: inline-block;
+  box-shadow: 0.6rem 0.6rem 0 0 var(--13);
 }
 /* Button Parent */
 div.BP {
@@ -674,7 +703,12 @@ div.set {
   flex-direction: row;
   margin: 0rem 0rem;
   justify-content: center;
-  z-index: 1;
+}
+button {
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  box-shadow: 0.5rem 0.5rem 0 0 var(--13);
 }
 .BD {
   background-image: url(./components/Images/BD.jpg);
@@ -689,7 +723,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .MM {
   background-image: url(./components/Images/MM.jpg);
@@ -704,7 +737,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .FM {
   background-image: url(./components/Images/FM.jpg);
@@ -719,7 +751,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .SL {
   background-image: url(./components/Images/SL.jpg);
@@ -734,7 +765,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .SW {
   background-image: url(./components/Images/SW.jpg);
@@ -749,7 +779,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .AS {
   background-image: url(./components/Images/AS.jpg);
@@ -764,7 +793,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .FD {
   background-image: url(./components/Images/FD.jpg);
@@ -779,7 +807,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .FR {
   background-image: url(./components/Images/FR.jpg);
@@ -794,7 +821,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .HZ {
   background-image: url(./components/Images/HZ.jpg);
@@ -809,7 +835,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .RS {
   background-image: url(./components/Images/RS.jpg);
@@ -824,7 +849,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .SH {
   background-image: url(./components/Images/SH.jpg);
@@ -839,7 +863,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .SU {
   background-image: url(./components/Images/SU.jpg);
@@ -854,7 +877,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .BF {
   background-image: url(./components/Images/BF.jpg);
@@ -869,7 +891,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .CH {
   background-image: url(./components/Images/CH.jpg);
@@ -884,7 +905,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .GR {
   background-image: url(./components/Images/GR.jpg);
@@ -899,7 +919,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .AG {
   background-image: url(./components/Images/AG.jpg);
@@ -914,7 +933,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .SN {
   background-image: url(./components/Images/SN.jpg);
@@ -929,7 +947,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 .WW {
   background-image: url(./components/Images/WW.jpg);
@@ -944,7 +961,6 @@ div.set {
   border-radius: 0.5rem;
   margin: 0.5rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
-  transition: all 0.4s ease-in-out;
 }
 footer {
   position: fixed;
