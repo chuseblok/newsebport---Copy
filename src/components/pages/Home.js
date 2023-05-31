@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div class='C1'>
       <div class='C11stChild'>
-        <title class='titlesphome'>Sebastian's Portfolio</title>
+        <title class='titlesphome'> Sebastian's Portfolio</title>
       </div>
       <div class='C12ndChild'>
         <div class='cardsp'>
@@ -51,7 +51,7 @@ const Project = () => {
                 <h3>
                   <li>HTML5</li>
                   <li>CSS3</li>
-                  <li>React.js</li>
+                  <li>React.JSX</li>
                   <li>Javascript</li>
                   <li>jQuery</li>
                 </h3>

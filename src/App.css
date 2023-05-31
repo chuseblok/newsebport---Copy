@@ -1,12 +1,12 @@
 :root {
-  --1: #36577c;
+  --1: #61649d;
   --2: #cadfff;
   --3: #859dc2;
   --4: #adcdfd;
   --5: #7a91b3;
   --6: #273543;
-  --7: #ffcb00;
-  --8: #fcee3c;
+  --7: #f4679b;
+  --8: #f5f8fa;
   --9: #72a5df;
   --10: #b89301;
   --11: #406084;
@@ -17,18 +17,19 @@
   --16: #4e6384de;
   --17: rgb(128, 215, 36);
   --18: #36577c;
-  -webkit-tap-highlight-color: rgb(0, 0, 0);
+  --19: #f5f8fa;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar {
   position: relative;
-  background: var(--2);
+  background: var(--19);
 }
 ::-webkit-scrollbar-button {
-  background: var(--7);
+  background: var(--19);
   height: 5rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--9);
+  background-color: var(--7);
   width: 0.5rem;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
@@ -43,7 +44,7 @@
   -webkit-user-select: none;
 }
 body {
-  background: var(--2);
+  background: var(--19);
   user-select: none;
   -webkit-user-select: none;
   margin: 0;
@@ -66,7 +67,7 @@ nav.main-header-menu {
   align-items: center;
   width: 100%;
   position: fixed;
-  background: var(--7);
+  background: var(--19);
   height: 5rem;
   z-index: 10;
   transition: all 0.2s ease-in-out;
@@ -76,6 +77,13 @@ a.nav-link {
   justify-content: center;
   margin: 0 0.5rem 0 0.5rem;
   transition: all 0.2s ease-in-out;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  border-radius: 0.5rem;
+}
+a.nav-link:hover {
+  box-shadow: var(--7) 0.2rem 0.2rem, var(--8) 0.4rem 0.4rem,
+    var(--13) 0.6rem 0.6rem;
+  border-radius: 0.5rem;
 }
 nav a {
   font-size: 0.938rem;
@@ -107,8 +115,13 @@ nav a:nth-child(4) {
 a.nav-link.active {
   border-radius: 0 0 0.5rem 0.5rem;
   color: var(--1);
-  background: var(--4);
-  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
+  background: var(--19);
+  box-shadow: 0.3rem 0.3rem 0 0 var(--7);
+  border-radius: 0.5rem;
+}
+a.nav-link.active:hover {
+  box-shadow: var(--7) 0.2rem 0.2rem, var(--8) 0.4rem 0.4rem,
+    var(--7) 0.6rem 0.6rem;
   border-radius: 0.5rem;
 }
 div.C1 {
@@ -154,7 +167,7 @@ div.cardsp {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  background: var(--4);
+  background: var(--19);
   border-radius: 0.5rem;
   margin: 0.6rem;
   display: inline-block;
@@ -170,11 +183,11 @@ div.cardsp:hover {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  background: var(--4);
+  background: var(--19);
   border-radius: 0.5rem;
   margin: 0.6rem;
   display: inline-block;
-  box-shadow: var(--8) 0.2rem 0.2rem 0.2rem, var(--7) 0.4rem 0.4rem,
+  box-shadow: var(--7) 0.2rem 0.2rem, var(--8) 0.4rem 0.4rem,
     var(--13) 0.6rem 0.6rem;
 }
 div.C11stChild {
@@ -190,17 +203,19 @@ title.titlesphome {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: start;
   top: 0.5rem;
   width: 100%;
   height: 5rem;
   border-radius: 0.5rem;
-  background: var(--12);
+  background: var(--19);
   color: var(--1);
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
+  line-height: 0.8;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-size: 4vh;
   margin: 0 1rem 0 1rem;
 }
 div.sphome {
@@ -213,10 +228,10 @@ div.sphome {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: var(--7);
+  background: var(--19);
   color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--10);
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -267,7 +282,7 @@ a.buttonsp {
   position: inherit;
   align-items: center;
   justify-content: center;
-  background-color: #009aac;
+  background-color: var(--19);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -286,7 +301,7 @@ h1.homewordbubble {
   width: 20rem;
   height: 17rem;
   border-radius: 0.5rem;
-  background: var(--12);
+  background: var(--19);
   color: var(--1);
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 750;
@@ -305,7 +320,7 @@ h2.homewordbubble {
   width: 20rem;
   height: 12rem;
   border-radius: 0.5rem;
-  background: var(--12);
+  background: var(--19);
   color: var(--1);
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 750;
@@ -344,7 +359,7 @@ h3.homewordbubble {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: var(--12);
+  background: var(--19);
   color: var(--1);
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 750;
@@ -375,7 +390,7 @@ div.card {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  background: var(--4);
+  background: var(--19);
   border-radius: 0.5rem;
   margin: 0.6rem;
   display: inline-block;
@@ -389,11 +404,11 @@ div.card:hover {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  background: var(--4);
+  background: var(--19);
   border-radius: 0.5rem;
   margin: 0.6rem;
   display: inline-block;
-  box-shadow: var(--8) 0.2rem 0.2rem 0.2rem, var(--7) 0.4rem 0.4rem,
+  box-shadow: var(--7) 0.2rem 0.2rem, var(--8) 0.4rem 0.4rem,
     var(--13) 0.6rem 0.6rem;
 }
 
@@ -419,10 +434,10 @@ div.titlegcb {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: #e1d9ca;
-  color: #30602f;
+  background: var(--19);
+  color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 #b4ac9d;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -438,13 +453,13 @@ div.gcb img {
   height: 11.5rem;
   width: 20rem;
   border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 #b4ac9d;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 a.buttongcb {
   position: inherit;
   align-items: center;
   justify-content: center;
-  background-color: #009aac;
+  background-color: var(--19);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -462,10 +477,10 @@ div.titlekyt {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: #c59161;
-  color: #425358;
+  background: var(--19);
+  color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 #916944;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -481,7 +496,7 @@ div.kyt img {
   height: 11.5rem;
   width: 20rem;
   border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 #916944;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 a.buttonkyt {
   font-size: 0.8rem;
@@ -511,10 +526,10 @@ div.titleEp {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: #9e63ff;
-  color: white;
+  background: var(--19);
+  color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 #6f44b4;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -530,7 +545,7 @@ div.ep img {
   height: 11.5rem;
   width: 20rem;
   border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 #6f44b4;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 a.buttonep {
   font-size: 0.8rem;
@@ -560,10 +575,10 @@ div.titlewm {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: #ff85c8;
-  color: #037d56;
+  background: var(--19);
+  color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 #9f537d;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -577,7 +592,7 @@ div.wm img {
   height: 11.5rem;
   width: 20rem;
   border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 #9f537d;
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 a.buttonwm {
   font-size: 0.8rem;
@@ -607,10 +622,10 @@ div.titlesp {
   width: 20rem;
   height: 5rem;
   border-radius: 0.5rem;
-  background: var(--7);
+  background: var(--19);
   color: var(--1);
   text-transform: uppercase;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--10);
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
@@ -624,7 +639,7 @@ div.sp img {
   height: 11.5rem;
   width: 20rem;
   border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.3rem 0 0 var(--10);
+  box-shadow: 0.3rem 0.3rem 0 0 var(--13);
 }
 a.buttonsp {
   font-size: 0.8rem;
@@ -655,7 +670,7 @@ h1.wordbubble {
   width: 20rem;
   height: 13rem;
   border-radius: 0.5rem;
-  background: var(--12);
+  background: var(--19);
   color: var(--1);
   box-shadow: 0.3rem 0.3rem 0 0 var(--13);
   font-weight: 750;
@@ -711,7 +726,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 button:hover {
-  box-shadow: var(--8) 0.2rem 0.2rem 0.2rem, var(--7) 0.4rem 0.4rem,
+  box-shadow: var(--7) 0.2rem 0.2rem, var(--8) 0.4rem 0.4rem,
     var(--13) 0.6rem 0.6rem;
 }
 .BD {
@@ -977,7 +992,7 @@ footer {
   align-content: center;
   flex-direction: row;
   align-items: center;
-  background: var(--7);
+  background: var(--19);
   z-index: 10;
 }
 div.ft {
