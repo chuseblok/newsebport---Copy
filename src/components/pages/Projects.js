@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import granDma from "../Images/grandma.jpg";
-import knowTeacher from "../Images/teacher.jpg";
+// import knowTeacher from "../Images/teacher.jpg";
 import eventPlan from "../Images/event.jpg";
 import waterMelon from "../Images/watermelon.jpg";
 import sebPort from "../Images/SBP.jpg";
