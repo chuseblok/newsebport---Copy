@@ -39,7 +39,7 @@ const Project = () => {
         </h1>
         <div class='BP'></div>
       </div>
-      <div class='card'>
+      {/* <div class='card'>
         <div class='titlekyt'>Know Your Teacher</div>
         <div class='kyt'>
           {" "}
@@ -74,7 +74,7 @@ const Project = () => {
           </div>
         </h1>
         <div class='BP'></div>
-      </div>
+      </div> */}
       <div class='card'>
         <div class='titleEp'>EventPlan</div>
         <div class='ep'>
@@ -117,7 +117,7 @@ const Project = () => {
           <Router>
             <div>
               <a
-                href='https://vercel.com/chuseblok/watermelon/DJiBEv8ZhxzHV8VPK8yh9PDNC119'
+                href='https://watermelon-neon.vercel.app/'
                 target='_blank'
                 rel='noreferrer'
               >
