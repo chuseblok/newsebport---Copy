@@ -117,7 +117,7 @@ const Project = () => {
           <Router>
             <div>
               <a
-                href='https://watermelonz.herokuapp.com/'
+                href='https://vercel.com/chuseblok/watermelon/DJiBEv8ZhxzHV8VPK8yh9PDNC119'
                 target='_blank'
                 rel='noreferrer'
               >
