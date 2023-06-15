@@ -384,7 +384,7 @@ div.C2 {
 }
 /* cards contained in C2(Projects) */
 div.card {
-  height: 33rem;
+  height: 32rem;
   width: 20rem;
   font-size: large;
   display: flex;
@@ -398,7 +398,7 @@ div.card {
   transition: all 0.2s ease-in-out;
 }
 div.card:hover {
-  height: 33rem;
+  height: 32rem;
   width: 20rem;
   font-size: large;
   display: flex;
@@ -432,7 +432,7 @@ div.titlegcb {
   align-content: center;
   right: 0.6rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
@@ -475,7 +475,7 @@ div.titlekyt {
   align-items: center;
   right: 0.6rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
@@ -524,7 +524,7 @@ div.titleEp {
   position: relative;
   right: 0.6rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
@@ -573,7 +573,7 @@ div.titlewm {
   position: relative;
   right: 0.6rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
@@ -620,7 +620,7 @@ div.titlesp {
   position: relative;
   right: 0.6rem;
   width: 20rem;
-  height: 5rem;
+  height: 4rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
