@@ -384,7 +384,7 @@ div.C2 {
 }
 /* cards contained in C2(Projects) */
 div.card {
-  height: 32rem;
+  height: 30rem;
   width: 20rem;
   font-size: large;
   display: flex;
@@ -398,7 +398,7 @@ div.card {
   transition: all 0.2s ease-in-out;
 }
 div.card:hover {
-  height: 32rem;
+  height: 30rem;
   width: 20rem;
   font-size: large;
   display: flex;
@@ -668,7 +668,7 @@ h1.wordbubble {
   top: 1.5rem;
   right: 0.6rem;
   width: 20rem;
-  height: 13rem;
+  height: 11.5rem;
   border-radius: 0.5rem;
   background: var(--19);
   color: var(--1);
