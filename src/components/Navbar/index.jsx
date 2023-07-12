@@ -19,13 +19,13 @@ function Navbar({ currentPage, handlePageChange }) {
           Projects
         </a>
 
-        <a
+        {/* <a
           href='#art'
           onClick={() => handlePageChange("Art")}
           className={currentPage === "Art" ? "nav-link active" : "nav-link"}
         >
           Art
-        </a>
+        </a> */}
         {/* 
         <a
           href='#contact'
