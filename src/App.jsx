@@ -29,7 +29,7 @@ function App() {
           </div>
         </Router>
 
-        {/* <Router>
+        <Router>
           <div>
             <a
               href='https://www.instagram.com/sebastianchumley_chuseblok/'
@@ -39,7 +39,7 @@ function App() {
               <img class='instagram' src={instaGram} alt='Instagram' />
             </a>
           </div>
-        </Router> */}
+        </Router>
 
         <Router>
           <div>

@@ -19,15 +19,15 @@ function Navbar({ currentPage, handlePageChange }) {
           Projects
         </a>
 
-        {/* <a
+        <a
           href='#art'
           onClick={() => handlePageChange("Art")}
           className={currentPage === "Art" ? "nav-link active" : "nav-link"}
         >
           Art
-        </a> */}
-        {/* 
-        <a
+        </a>
+
+        {/* <a
           href='#contact'
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
@@ -37,7 +37,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
         <div class='animation start-home'></div>
       </section>
-      {/* <div class='C0'></div> */}
+      <div class='C0'></div>
     </nav>
   );
 }
